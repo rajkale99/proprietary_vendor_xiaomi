@@ -432,6 +432,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
+    libaudioalsa \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
