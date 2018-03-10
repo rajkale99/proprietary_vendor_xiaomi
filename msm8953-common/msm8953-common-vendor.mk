@@ -47,8 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -66,8 +66,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
@@ -245,9 +245,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
@@ -426,7 +424,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
