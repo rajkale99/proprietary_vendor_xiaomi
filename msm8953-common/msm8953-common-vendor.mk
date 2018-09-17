@@ -25,14 +25,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/permissions/com.qualcomm.qti.imscmservice_1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.qti.imscmservice_1_1.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/xiaomi/msm8953-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/msm8953-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
@@ -43,8 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/msm8953-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/msm8953-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/framework/com.qualcomm.qti.imscmservice@1.1-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qualcomm.qti.imscmservice@1.1-java.jar \
+    vendor/xiaomi/msm8953-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/msm8953-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/xiaomi/msm8953-common/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
     vendor/xiaomi/msm8953-common/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
@@ -64,13 +61,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
     vendor/xiaomi/msm8953-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscamera.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvideocodec.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtextutils.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtutils.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
@@ -81,18 +78,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
@@ -117,20 +113,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.1.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscamera.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvideocodec.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvt.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtextutils.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtutils.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libExtendedExtractor.so:system/lib64/libExtendedExtractor.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
@@ -141,19 +135,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libmmparser.so:system/lib64/libmmparser.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmrtpdecoder.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmrtpencoder.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libwfdavenhancements.so:system/lib64/libwfdavenhancements.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libwfdcodecv4l2.so:system/lib64/libwfdcodecv4l2.so \
@@ -180,9 +173,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
@@ -202,7 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/xiaomi/msm8953-common/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
@@ -267,7 +258,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/perf/gamedwhitelist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/gamedwhitelist.xml \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/xiaomi/msm8953-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
@@ -326,6 +316,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8953.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
@@ -480,7 +471,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
@@ -527,6 +517,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
@@ -557,7 +548,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.wipower@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wipower@1.0_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@1.0.so \
@@ -579,6 +569,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8953.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
@@ -747,7 +738,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
@@ -779,6 +769,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
@@ -811,7 +802,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.1_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.wipower@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wipower@1.0_vendor.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
@@ -853,5 +843,4 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     TimeService \
     colorservice \
-    com.qti.snapdragon.sdk.display \
     qcrilhook
