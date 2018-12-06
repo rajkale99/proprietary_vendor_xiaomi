@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_ofilm_chromatix.xml \
     vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_ofilm_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_ofilm_chromatix_india.xml \
     vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_qtech_chromatix.xml \
+    vendor/xiaomi/vince/proprietary/vendor/etc/camera/vince_ov5675_qtech_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vince_ov5675_qtech_chromatix_india.xml \
     vendor/xiaomi/vince/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
     vendor/xiaomi/vince/proprietary/vendor/etc/permissions/vendor-qti-hardware-alarm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-alarm.xml \
     vendor/xiaomi/vince/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
