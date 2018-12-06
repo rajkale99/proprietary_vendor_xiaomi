@@ -66,6 +66,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_csidtg_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_preview.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_4k_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_4k_preview_dw9763.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_4k_video_dw9763.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libchromatix_ov12a10_sunny_vince_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_vince_common.so \
